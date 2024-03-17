@@ -50,19 +50,19 @@ Console.WriteLine("our Average is " + GetAverage(numbers));
 
  static int Max_Number(int[] numbers)
  {
-     int Max = 0;
+     int Max_Number = 0;
 
      for (int i = 0; i < numbers.Length; i++) {
 
-         if (numbers[i]>Max)
+         if (numbers[i]>Max_Number)
          {
-             Max = numbers[i];
+             Max_Number = numbers[i];
 
          }
          
      }
 
-     return Max;
+     return Max_Number;
 
 
 
