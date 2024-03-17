@@ -36,7 +36,7 @@ static double GetAverage(int[] arr)
     double sum = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        sum = +arr[i];
+        sum += arr[i];
     }
 
     return sum / arr.Length;
@@ -44,7 +44,8 @@ static double GetAverage(int[] arr)
 }
 
 int[] numbers = { 1, 2, 3, 4, 5, 6 };
-GetAverage(numbers);
+
+Console.WriteLine("our Average is " + GetAverage(numbers));
     
 
 
