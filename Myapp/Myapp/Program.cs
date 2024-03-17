@@ -48,15 +48,15 @@ int[] numbers = { 1, 2, 3, 4, 5, 6 };
 
 Console.WriteLine("our Average is " + GetAverage(numbers));
 
- static int Max_Number(int[] numbers)
+ static int Max_Number(int[] number)
  {
      int Max = 0;
 
-     for (int i = 0; i < numbers.Length; i++) {
+     for (int i = 0; i < number.Length; i++) {
 
-         if (numbers[i]>Max)
+         if (number[i]>Max)
          {
-             Max = numbers[i];
+             Max = number[i];
 
          }
          
