@@ -1,6 +1,6 @@
 ﻿
 using System;
-Console.WriteLine("Pizza hut");
+Console.WriteLine("Welcome to Pizza house");
 
 int Margaritta = 30;
 int Salami = 45;
