@@ -30,16 +30,16 @@ if (int.TryParse(choise, out int number))
     
 }
 
-static double GetAverage(int[] arr)
+static double GetAverage(int[] numbers)
 {
 
     double sum = 0;
-    for (int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < numbers.Length; i++)
     {
-        sum += arr[i];
+        sum += numbers[i];
     }
 
-    return sum / arr.Length;
+    return sum / numbers.Length;
     
 }
 
